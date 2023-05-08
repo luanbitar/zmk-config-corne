@@ -15,6 +15,7 @@
         new_combo {
             bindings = <&mo 3>;
             key-positions = <38 39>;
+            layers = <3 0 1 2>;
         };
     };
 
