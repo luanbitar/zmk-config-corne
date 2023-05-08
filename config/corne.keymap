@@ -72,10 +72,10 @@
 
         layer_3 {
             bindings = <
-    &trans        &trans        &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp K_MUTE  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-    &trans        &trans        &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans  &trans  &trans    &trans  &trans  &trans
+    &trans        &trans        &trans           &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+    &trans        &trans        &trans           &trans             &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &trans             &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
